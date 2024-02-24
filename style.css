@@ -2,10 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
-canvas {
-  display: block;
+.canvas-container {
+  width: 100%;
+  text-align:center;
 }
 
-main {
-  text-align: center;
+canvas {
+  display: inline;
 }
